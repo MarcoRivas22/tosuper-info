@@ -1,3 +1,8 @@
+.centrado {
+  padding: 0px 30px 0px 30px;
+  margin: 0px;
+}
+
 .jumbotron {
   padding:70px 0px 70px 0px;
   margin: 0px auto;
@@ -14,15 +19,17 @@
   font-size:300%;
   font-weight:800;
   color: #ff4d00;
+  font-family: Shopify-Sans-Black-Regular;
 }
 
 .orangetextsmall {
   margin-left: 8px;
   color: #ff4d00;
+  font-family: Shopify-Sans-Black-Regular;
 }
 
 .blacktext {
-  font-size:300%;
+  font-size: 190%;
   font-weight:1000;
 }
 
@@ -32,18 +39,26 @@
 }
 
 .smalltext {
-  font-size: 85%;
+  font-size: 100%;
 }
 
-.row-content {
-  margin: 0px auto;
-  padding: 50px 0px;
-  min-height: 400px;
+.whitetext {
+  font-size: 190%;
+  font-weight:1000;
+  color: #fff;
 }
 
-.row-title {
-  margin: 0px auto;
-  padding: 50px 0px 0px 0px;
+.whitetexttitle {
+  font-size:300%;
+  font-weight:500;
+  color: #fff;
+}
+
+.whitetextsmall {
+  font-size:150%;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #fff;
 }
 
 .img-header {
@@ -52,5 +67,40 @@
   left: 0;
   height: 500px;
   width: 100%;
-  max-width: auto;
+  z-index: 0;
+}
+
+.img-footer {
+  position: absolute;
+  left: 0;
+  padding: 0px 0px;
+  height: 500px;
+  width: 100%;
+  min-height: 900px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 200px;
+  min-height: 100px;
+  width: 250px;
+  height: 50px;
+  padding-left: 70px;
+}
+
+.z {
+  z-index: 1;
+}
+
+@font-face {
+  font-family: Shopify-Sans-Black-Regular;
+  src: url(./shared/Shopify-Sans-Black-Regular.ttf);
+}
+
+.icon {
+  font-size: 1000%;
+  color: #fff;
+  margin-bottom: 30px;
 }

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Form = () => {
     return(
-        <div className="align-self-center">
-            <h2 className="orangetext">Pide Ya Tu Despensa</h2>
+        <div className="container">
+            <div className="orangetext d-flex justify-content-center mt-1 mt-sm-4 mt-md-5">Pide Ya Tu Despensa</div>
         </div>
     );
 }

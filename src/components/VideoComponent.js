@@ -5,7 +5,7 @@ const Video = () => {
     return(
         <>
             <ReactPlayer
-            url='https://www.youtube.com/watch?v=mgDe3sevN-I&t=260s'
+            //url='https://youtu.be/XPjtL0BBu5E'
             className='react-player'
             playing
             width='100%'
